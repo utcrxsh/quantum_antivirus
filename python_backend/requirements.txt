@@ -1,0 +1,12 @@
+fastapi>=0.68.1
+uvicorn>=0.15.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+joblib>=1.1.0
+psutil>=5.8.0
+pywin32>=303
+pydantic>=1.8.2
+PyPDF2
+python-docx
+python-multipart
+# Add other dependencies as needed for your data collection and scanning 
