@@ -1,6 +1,105 @@
-# Quantum Antivirus Project
+# 🚀 Quantum Antivirus
 
-A cross-platform malware scanning and prediction tool with a Flutter frontend and a native Python backend.
+A modern, cross-platform antivirus solution powered by **Flutter** (frontend) and **Python FastAPI** (backend) with integrated **Machine Learning** for advanced threat detection.
+
+---
+
+## ✨ Overview
+Quantum Antivirus is a next-generation antivirus application designed to provide robust, real-time protection against malware and cyber threats. It features both **static (hash-based) scanning** for known threats and **dynamic (ML-based) scanning** for zero-day malware by detecting suspicious patterns. Leveraging the power of machine learning, it delivers fast, accurate, and intelligent scanning for files, processes, and system logs—all wrapped in a beautiful, responsive UI.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Flutter (Dart)
+  - Responsive, cross-platform UI (Windows, Web, Mac, Linux, Android, iOS)
+  - Modern design with smooth animations
+- **Backend:** Python FastAPI
+  - High-performance REST API
+  - Handles scan requests and ML inference
+- **Machine Learning:**
+  - Scikit-learn, XGBoost models (joblib/pkl)
+  - Real-time malware detection
+- **Other:**
+  - Shared Preferences for local storage
+  - File Picker for flexible scanning
+
+---
+
+## 🌟 Features
+
+- **Static & Dynamic Scanning:**
+  - **Hash-based scanning** for instant detection of known threats
+  - **ML-powered dynamic scanning** for zero-day malware by analyzing suspicious patterns
+- **Quantum Mode:** Advanced ML-powered scanning for files, processes, and logs
+- **Real-Time Protection:** Fast, accurate threat detection
+- **Beautiful UI:** Clean, modern, and accessible interface
+- **Cross-Platform:** Works on desktop and web
+- **Scan History:** View past scans and results
+- **Custom Scans:** Scan specific files, folders, or system logs
+- **About & Settings:** Device info and app details
+
+---
+
+## 🚦 Quick Start
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/utcrxsh/quantum_antivirus.git
+cd quantum_antivirus
+```
+
+### 2. Backend Setup (Python FastAPI)
+```sh
+cd python_backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### 3. Frontend Setup (Flutter)
+```sh
+cd flutter_app
+flutter pub get
+flutter run -d windows
+```
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./flutter_app/assets/image.png" width="600" alt="Dashboard Screenshot" />
+</p>
+
+---
+<p align="center">
+  <img src="./flutter_app/assets/scan.png" width="600" alt="Dashboard Screenshot" />
+</p>
+ 
+---
+
+## 💡 Why Quantum Antivirus?
+- **Cutting-Edge ML:** Uses real machine learning models for malware detection
+- **Static & Dynamic:** Combines hash-based and ML-based scanning for comprehensive protection
+- **Full-Stack:** Demonstrates expertise in both Flutter and Python ecosystems
+- **Production-Ready:** Clean architecture, modular code, and scalable design
+- **Recruiter Appeal:** Showcases modern UI/UX, cross-platform skills, and backend ML integration
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+[MIT](LICENSE)
+
+---
+
+<p align="center">
+  <b>Quantum Antivirus &mdash; Secure. Smart. Stunning.</b>
+</p>
 
 ## Project Structure
 
@@ -53,14 +152,4 @@ A cross-platform malware scanning and prediction tool with a Flutter frontend an
 - Use the UI to trigger scans (processes, files, logs).
 - Results are displayed in the app.
 
-## Notes
-- For advanced integration, consider using Platform Channels or a local REST API.
-- Ensure Python is installed and available in your system PATH.
 
-No supported devices connected.
-
-The following devices were found, but are not supported by this project:
-Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26100.3915]
-Chrome (web)      • chrome  • web-javascript • Google Chrome 135.0.7049.115
-Edge (web)        • edge    • web-javascript • Microsoft Edge 135.0.3179.98
-If you would like your app to run on web or windows, consider running `flutter create .` to generate projects for these platforms. 
