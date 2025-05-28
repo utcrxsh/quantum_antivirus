@@ -1,4 +1,4 @@
-# 🚀 Quantum Antivirus
+#  Quantum Antivirus
 
 A modern, cross-platform antivirus solution powered by **Flutter** (frontend) and **Python FastAPI** (backend) with integrated **Machine Learning** for advanced threat detection.
 
@@ -101,25 +101,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
   <b>Quantum Antivirus &mdash; Secure. Smart. Stunning.</b>
 </p>
 
-## Project Structure
-
-```
-/quantum_antivirus_project/
-├── flutter_app/
-│   ├── lib/
-│   ├── assets/
-│   └── pubspec.yaml
-├── python_backend/
-│   ├── model/
-│   │   └── malware_detector.pkl
-│   ├── scanner.py
-│   ├── runner.py
-│   ├── requirements.txt
-│   └── utils.py
-├── integration/
-│   └── glue_code.py
-└── README.md
-```
 
 ## Setup
 
