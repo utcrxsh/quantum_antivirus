@@ -41,7 +41,29 @@ Quantum Antivirus is a next-generation antivirus application designed to provide
 
 ---
 
-## 🚦 Quick Start
+
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./flutter_app/assets/image.png" width="600" alt="Dashboard Screenshot" />
+</p>
+
+---
+<p align="center">
+  <img src="./flutter_app/assets/scan.png" width="600" alt="Dashboard Screenshot" />
+</p>
+ 
+---
+
+<p align="center">
+  <b>Quantum Antivirus &mdash; Secure. Smart. Stunning.</b>
+</p>
+
+
+## Setup
 
 ### 1. Clone the Repository
 ```sh
@@ -63,74 +85,6 @@ flutter pub get
 flutter run -d windows
 ```
 
----
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./flutter_app/assets/image.png" width="600" alt="Dashboard Screenshot" />
-</p>
-
----
-<p align="center">
-  <img src="./flutter_app/assets/scan.png" width="600" alt="Dashboard Screenshot" />
-</p>
- 
----
-
-## 💡 Why Quantum Antivirus?
-- **Cutting-Edge ML:** Uses real machine learning models for malware detection
-- **Static & Dynamic:** Combines hash-based and ML-based scanning for comprehensive protection
-- **Full-Stack:** Demonstrates expertise in both Flutter and Python ecosystems
-- **Production-Ready:** Clean architecture, modular code, and scalable design
-- **Recruiter Appeal:** Showcases modern UI/UX, cross-platform skills, and backend ML integration
-
----
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📄 License
-[MIT](LICENSE)
-
----
-
-<p align="center">
-  <b>Quantum Antivirus &mdash; Secure. Smart. Stunning.</b>
-</p>
-
-
-## Setup
-
-### Python Backend
-1. Navigate to `python_backend/`.
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Place your trained model as `model/malware_detector.pkl`.
-
-### Flutter Frontend
-1. Navigate to `flutter_app/`.
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Run the app:
-   ```bash
-   flutter run -d windows
-   ```
-
-## Usage
-- The Flutter app communicates with the Python backend using `Process.run()`.
-- Use the UI to trigger scans (processes, files, logs).
-- Results are displayed in the app.
 
 
